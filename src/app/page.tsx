@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div className="flex flex-1 items-center justify-center px-6 py-16">
+    <div className="relative flex flex-1 items-center justify-center px-6 py-16">
       <main className="w-full max-w-3xl rounded-[28px] border border-white/15 bg-[var(--panel)] p-8 text-center shadow-[0_24px_80px_rgba(3,8,30,0.3)] backdrop-blur-sm sm:p-10">
         <h1 className="text-3xl font-semibold tracking-[0.08em] text-[var(--accent)] sm:text-4xl">
           Snake River League
@@ -21,6 +21,19 @@ export default function Home() {
           View Current Schedule
         </a>
       </main>
+      <p className="pointer-events-none absolute inset-x-0 bottom-5 text-center text-sm text-[var(--copy)]/85">
+        <span className="pointer-events-auto">
+          Built by{" "}
+          <a
+            className="font-medium text-[var(--accent)] underline underline-offset-4 transition-colors hover:text-[var(--accent-strong)]"
+            href="https://knighton.dev"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Knighton Dev LLC
+          </a>
+        </span>
+      </p>
     </div>
   );
 }
