@@ -12,14 +12,32 @@ export default function Home() {
           Commissioner and IFFC we offer a pathway for teams and players to
           compete locally.
         </p>
-        <a
-          className="mt-8 inline-flex rounded-full bg-[var(--accent)] px-6 py-3 font-medium text-[#18224a] shadow-[0_12px_30px_rgba(215,187,111,0.3)] transition-colors hover:bg-[var(--accent-strong)] hover:text-[#10183a]"
-          href="https://system.gotsport.com/org_event/events/50506"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          View Current Schedule
-        </a>
+        <div className="mt-8 flex flex-wrap justify-center gap-4">
+          <a
+            className="inline-flex rounded-full bg-[var(--accent)] px-6 py-3 font-medium text-[#18224a] shadow-[0_12px_30px_rgba(215,187,111,0.3)] transition-colors hover:bg-[var(--accent-strong)] hover:text-[#10183a]"
+            href="https://system.gotsport.com/org_event/events/50506"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Current Schedule
+          </a>
+          <a
+            className="inline-flex rounded-full border border-[var(--accent)] px-6 py-3 font-medium text-[var(--accent)] transition-colors hover:bg-[var(--accent)] hover:text-[#18224a]"
+            href="https://2hg2avs4i0pxg1ls.public.blob.vercel-storage.com/srl-rules.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View League Rules
+          </a>
+          <a
+            className="inline-flex rounded-full border border-[var(--accent)] px-6 py-3 font-medium text-[var(--accent)] transition-colors hover:bg-[var(--accent)] hover:text-[#18224a]"
+            href="https://www.idahoyouthsoccer.org/governing-documents/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            IYSA Policies
+          </a>
+        </div>
       </main>
       <p className="pointer-events-none absolute inset-x-0 bottom-5 text-center text-sm text-[var(--copy)]/85">
         <span className="pointer-events-auto">
