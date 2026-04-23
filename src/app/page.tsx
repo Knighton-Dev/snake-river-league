@@ -6,11 +6,12 @@ export default function Home() {
           Snake River League
         </h1>
         <p className="mt-5 text-lg leading-8 text-[var(--copy)]">
-          Welcome to the Snake River League! The league gives players an
-          opportunity to play competitive, organized and fun games here in
-          South East Idaho. Together, with the affiliates, IYSA, District II
-          Commissioner and IFFC we offer a pathway for teams and players to
-          compete locally.
+          The Snake River League is a competitive soccer league serving club
+          teams and players across southern and south-east Idaho. Clubs from
+          across the region come together to compete in organized, meaningful
+          games — providing a local pathway for development and competition.
+          The league is administered by IFFC in partnership with IYSA and the
+          District II Commissioner.
         </p>
         <div className="mt-8 flex flex-wrap justify-center gap-4">
           <a
