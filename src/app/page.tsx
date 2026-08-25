@@ -1,4 +1,4 @@
-const LEAGUE_END = new Date("2026-06-19T00:00:00-06:00");
+const LEAGUE_END = new Date("2026-11-19T00:00:00-06:00");
 
 export default function Home() {
   const isOffSeason = new Date() >= LEAGUE_END;
