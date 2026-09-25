@@ -1,4 +1,4 @@
-const LEAGUE_END = new Date("2026-06-19T00:00:00-06:00");
+const LEAGUE_END = new Date("2026-11-19T00:00:00-06:00");
 
 export default function Home() {
   const isOffSeason = new Date() >= LEAGUE_END;
@@ -27,7 +27,7 @@ export default function Home() {
           {!isOffSeason && (
           <a
             className="inline-flex rounded-full bg-[var(--accent)] px-6 py-3 font-medium text-[#18224a] shadow-[0_12px_30px_rgba(215,187,111,0.3)] transition-colors hover:bg-[var(--accent-strong)] hover:text-[#10183a]"
-            href="https://system.gotsport.com/org_event/events/50506"
+            href="https://system.gotsport.com/org_event/events/57761"
             target="_blank"
             rel="noopener noreferrer"
           >
