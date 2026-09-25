@@ -58,6 +58,14 @@ export default function Home() {
           >
             IYSA Policies
           </a>
+          <a
+            className="inline-flex rounded-full border border-[var(--accent)] px-6 py-3 font-medium text-[var(--accent)] transition-colors hover:bg-[var(--accent)] hover:text-[#18224a]"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfB6cjqTOKyNhA4FmhvZGsbtuVWCWp3dnqHex0bXWsT6J_gag/viewform"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Incident Report
+          </a>
         </div>
       </main>
       <p className="pointer-events-none absolute inset-x-0 bottom-5 text-center text-sm text-[var(--copy)]/85">
